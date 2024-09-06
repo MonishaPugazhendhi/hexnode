@@ -1,0 +1,28 @@
+.header1{
+    display: flex;
+}
+.header2{
+display: none;
+}
+@media (max-width: 1280px){
+    .header1{
+        display: none;
+    }
+    .header2{
+        display: flex;
+    }
+}
+.header_Container{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    height: 80px;
+}
+.bg_tranparent{
+    background: transparent;
+}
+.bg_white{
+    background:var(--white);
+}

@@ -1,0 +1,93 @@
+.bannerContainer {
+  background: var(--themeColor-light);
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%;
+  gap: 15%;
+}
+.box1,
+.box2,
+.box3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.text1 {
+  font-size: 27px;
+  line-height: 32px;
+  color: var(--white);
+}
+.text2 {
+    font-size: 14px;
+  line-height: 18px;
+  color: var(--white);
+  text-align: left;
+  opacity: 50%;
+  width: 100%;
+  margin-top: 5px;
+}
+.gartner {
+  filter: invert(1);
+  height: auto;
+  width: 60%;
+}
+.forrester{
+    height: auto;
+    width: 70%;
+    margin-bottom: 10px;
+}
+@media (max-width: 1024px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .box1,
+  .box2,
+  .box3 {
+    align-items: center;
+  }
+  .box2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .text2{
+    width: 45%;
+  }
+  .gartner {
+    filter: invert(1);
+    height: auto;
+    width: 18%;
+  }
+  .forrester{
+    height: auto;
+    width: 20%;
+    margin-bottom: 10px;
+}
+}
+@media (max-width: 900px) {
+    .text2{
+        width: 65%;
+      }
+      .forrester{
+        height: auto;
+        width: 40%;
+        margin-bottom: 10px;
+    }
+    .gartner {
+        filter: invert(1);
+        height: auto;
+        width: 30%;
+      }
+}
+

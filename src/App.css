@@ -1,0 +1,55 @@
+:root {
+  --white: #fff;
+  --themeColor: #101420;
+  --themeColor-light:#1c202b;
+  --blackText: #020a19;
+  --generalText: #333333
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+  box-sizing: border-box;
+  height: 100vh;
+ 
+  /* overflow-x: hidden; */
+}
+.mainContainer {
+  height: 100vh;
+ 
+  position: relative;
+
+}
+.headerBox {
+  position: "relative" !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.itemsCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-center {
+  display: flex;
+  align-items: center;
+}
+
+.column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading{
+  font-size: 40px;
+  line-height: 38px;
+  color:var(--blackText);
+  font-weight: 800;
+ 
+}
+.general_text{
+  font-size: 18px;
+  line-height: 28px;
+  color:var(--generalText)
+}

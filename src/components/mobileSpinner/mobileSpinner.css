@@ -1,0 +1,71 @@
+.mobileSpinner {
+  position: absolute;
+  z-index: 1
+  
+}
+.circle-svg-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+.circle-svg-container .circle-svg {
+  animation: spin 75s infinite linear;
+}
+
+.circle-svg-container.second .circle-svg {
+  animation: spin2 75s infinite linear;
+}
+
+.circle-svg-container.first .circle-svg {
+  width: 150px;
+  height: 150px;
+}
+
+.circle-svg-container.second .circle-svg {
+  width: 240px;
+  height: 240px;
+}
+
+.circle-svg-container.third .circle-svg {
+  width: 305px;
+  height: 305px;
+}
+
+@media (min-width: 1024px) {
+  .circle-svg-container.first .circle-svg {
+    width: 279px;
+    height: 279px;
+  }
+
+  .circle-svg-container.second .circle-svg {
+    width: 389px;
+    height: 389px;
+  }
+
+  .circle-svg-container.third .circle-svg {
+    width: 503px;
+    height: 503px;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
