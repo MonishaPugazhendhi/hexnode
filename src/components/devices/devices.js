@@ -6,7 +6,7 @@ export default function Devices() {
     <PaddedSides>
       <div className="devices">
         <img className="dev_img" src={devices} alt="devices" />
-        <div style={{marginTop: '35px'}} className="heading">
+        <div  className="heading">
           Phones, TVs and Wearables. All from a single point.
         </div>
         <div style={{width: '60%', textAlign: 'center', marginTop: '20px'}} className="general_text">

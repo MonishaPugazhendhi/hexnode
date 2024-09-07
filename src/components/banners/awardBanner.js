@@ -10,7 +10,7 @@ export default function AwardBanner() {
           <div className="box1">
             <div className="text1"> Loved by all. </div>
             <div className="text1">Recognized by the best. </div>
-          </div>
+          </div> 
           <div className="box2">
             <img 
               src={gartner}

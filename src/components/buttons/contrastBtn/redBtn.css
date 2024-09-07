@@ -1,49 +1,66 @@
 /* button.css */
 .action-button {
-    font-size: 17px;
-   
-    text-transform: uppercase;
-    color: #fff;
-    font-weight: normal;
-    background-color: #dd0735;
-    width: 100%;
+  font-size: 17px;
+
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: normal;
+  background-color: #dd0735;
+  width: 100%;
   flex-wrap: nowrap;
-    height: 53px;
-    border: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 3px;
-    transition: all 0.25s ease-in-out;
-    cursor: pointer;
+  height: 53px;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  color: #fff;
+  background-color: #bb022a;
+  text-decoration: none; /* Remove underline */
+}
+
+.action-button:focus {
+  color: #fff;
+  background-color: #bb022a;
+  text-decoration: none; /* Remove underline */
+  outline: none; /* Remove default focus outline */
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
   }
-  
-  .action-button:hover {
-    color: #fff;
-    background-color: #bb022a;
-    text-decoration: none; /* Remove underline */
+  100% {
+    transform: rotate(360deg);
   }
-  
-  .action-button:focus {
-    color: #fff;
-    background-color: #bb022a;
-    text-decoration: none; /* Remove underline */
-    outline: none; /* Remove default focus outline */
+}
+@media (max-width: 900px) {
+  .action-button {
+    font-size: 10px;
+    width: 100%;
+    height: 35px;
   }
-  
-  .spinner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 0;
-    width: 0;
-    height: 0;
-    overflow: hidden;
-    animation: spin 1s linear infinite;
+}
+@media (max-width: 1000px) {
+  .action-button {
+    font-size: 14px;
+    width: 100%;
+    height: 44px;
   }
-  
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-  
+}

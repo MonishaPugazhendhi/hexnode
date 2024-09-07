@@ -9,7 +9,10 @@
     width: 45%;
     height: auto;
 }
-
+.heading{
+  margin-top: 35px;
+ 
+}
 @media (max-width: 1200px) {
   .dev_img {
     width: 50%;

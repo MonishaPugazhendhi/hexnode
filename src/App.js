@@ -4,6 +4,9 @@ import Header from "./components/header/header";
 import HeroSection from "./components/heroSection/HeroSection.js";
 import AwardBanner from "./components/banners/awardBanner.js";
 import Devices from "./components/devices/devices.js";
+import Tabs from "./components/tabs/tab.js";
+import EmailBanner from "./components/banners/emailBanner.js";
+import PartnersComponent from "./components/partners/partners.js";
 
 function App() {
   const [scrollHeight, setScrollHeight] = useState(0);
@@ -23,8 +26,12 @@ function App() {
     <div className="mainContainer">
       <Header scrollHeight={scrollHeight} />
       <HeroSection />
-      <AwardBanner/>
-      <Devices/>
+      <AwardBanner />
+      <Devices />
+      <Tabs/>
+      <EmailBanner title={"Start managing your Android devices"} />
+      <PartnersComponent />
+      <EmailBanner title={"Android management, made easy!"} />
     </div>
   );
 }

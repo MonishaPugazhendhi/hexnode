@@ -46,10 +46,16 @@ body {
   line-height: 38px;
   color:var(--blackText);
   font-weight: 800;
+  text-align: center;
  
 }
 .general_text{
   font-size: 18px;
   line-height: 28px;
   color:var(--generalText)
+}
+@media (max-width: 900px) {
+  .heading{
+    font-size: 32px;
+  }
 }

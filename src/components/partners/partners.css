@@ -1,0 +1,146 @@
+.partnerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 45%;
+}
+.partner_title {
+  color: var(--themeColor);
+  font-size: 32px;
+  line-height: 38px;
+  padding-bottom: 8px;
+  font-weight: 600;
+}
+.partner_text {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  color: var(--generalText);
+}
+.partners {
+  display: flex;
+  flex-direction: column;
+  padding-right: 40px;
+  
+}
+.row1,
+.row2,
+.row3 {
+  display: flex;
+
+  justify-content: center;
+}
+
+.row2 {
+  align-items: center;
+  gap: 10px;
+}
+
+.row1 {
+  align-items: flex-end;
+}
+.row3 {
+  align-items: flex-start;
+}
+.row2_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.row2_3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.image {
+  margin: 10px 10px;
+}
+@media (max-width: 1000px) {
+  .partnerContainer {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .content {
+    align-items: center;
+    max-width: 80%;
+    text-align: center;
+  }
+}
+@media (min-width: 1028px) {
+   
+ .samsung{
+    transform: translateX(20px) translateY(30px);
+    transition: transform 0.3s ease-in-out;
+ }
+ .kyocera{
+    transform: translateX(-20px) translateY(10px);
+    transition: transform 0.3s ease-in-out;
+ }
+ .lg{
+    transform: translateX(100px) translateY(30px);
+    transition: transform 0.3s ease-in-out;
+    z-index: 1;
+ }
+ .zendesk{
+    transform: translateX(-30px) translateY(0px);
+    transition: transform 0.3s ease-in-out;
+ }
+ .google{
+    transform: translateX(10px) translateY(-5px);
+    transition: transform 0.3s ease-in-out;
+ }
+.microsoft{
+    transform: translateX(-70px) translateY(20px);
+    transition: transform 0.3s ease-in-out;
+}
+.ad{
+    transform: translateX(-20px) translateY(-10px);
+    transition: transform 0.3s ease-in-out;
+}
+.android{
+    transform: translateX(20px) translateY(20px);
+    transition: transform 0.3s ease-in-out;
+}
+.hexnode{
+    visibility: hidden;
+   
+}
+
+
+ .partners:hover .samsung{
+    transform: translateX(0px) translateY(0px);
+ }
+ .partners:hover .lg{
+    transform: translateX(0px) translateY(0px);
+ }
+ .partners:hover .kyocera{
+    transform: translateX(0px) translateY(0px);
+ }
+ .partners:hover .zendesk{
+    transform: translateX(0px) translateY(0px);
+ }
+ .partners:hover .google{
+    transform: translateX(0px) translateY(0px);
+ }
+ .partners:hover .microsoft{
+    transform: translateX(0px) translateY(0px);
+ }
+ .partners:hover .ad{
+    transform: translateX(0px) translateY(0px);
+ }
+ .partners:hover .android{
+    transform: translateX(0px) translateY(0px);
+ }
+ .partners:hover .hexnode{
+    visibility: visible;
+ }
+}
