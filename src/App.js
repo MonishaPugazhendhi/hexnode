@@ -7,6 +7,8 @@ import Devices from "./components/devices/devices.js";
 import Tabs from "./components/tabs/tab.js";
 import EmailBanner from "./components/banners/emailBanner.js";
 import PartnersComponent from "./components/partners/partners.js";
+import Features from "./components/features/features.js";
+import Carousal from "./components/carousal/carousal.js";
 
 function App() {
   const [scrollHeight, setScrollHeight] = useState(0);
@@ -29,7 +31,9 @@ function App() {
       <AwardBanner />
       <Devices />
       <Tabs/>
+      <Features/>
       <EmailBanner title={"Start managing your Android devices"} />
+      {/* <Carousal/> */}
       <PartnersComponent />
       <EmailBanner title={"Android management, made easy!"} />
     </div>

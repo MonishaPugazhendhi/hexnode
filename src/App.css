@@ -3,7 +3,8 @@
   --themeColor: #101420;
   --themeColor-light:#1c202b;
   --blackText: #020a19;
-  --generalText: #333333
+  --generalText: #333333;
+  --bgdLight: #f7f7f7;
 }
 
 body {
