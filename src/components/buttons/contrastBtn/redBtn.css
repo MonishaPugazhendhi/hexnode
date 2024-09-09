@@ -1,3 +1,4 @@
+
 .action-button {
   font-size: 17px;
 
@@ -32,8 +33,8 @@
 .action-button:focus {
   color: var(--white);
   background-color: #bb022a;
-  text-decoration: none;
-  outline: none;
+  text-decoration: none; 
+  outline: none; 
 }
 
 .spinner {
@@ -69,11 +70,12 @@
 @media (max-width: 600px) {
   .action-button {
     font-size: 15px;
-
-    max-width: 325px;
-    min-width: 315px;
-    height: 45px;
+  
+    max-width: 200px;
+    min-width: 247px;
+    height: 40px;
 
     color: var(--white);
+   
   }
 }

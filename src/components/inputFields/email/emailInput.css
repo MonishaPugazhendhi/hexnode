@@ -29,22 +29,7 @@
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
 }
 
-@media (max-width: 900px) {
-  .emailcontainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .email-input {
-    font-size: 13px;
-    line-height: 20px;
-    width: 100%;
-    height: 35px;
-    border-radius: 3px;
-   
-    max-width: 325px;
-  }
-}
+
 @media (max-width: 1000px) {
   .emailcontainer {
     display: flex;
@@ -59,5 +44,24 @@
     border-radius: 3px;
    
     max-width: 325px;
+  }
+}
+@media (max-width: 600px) {
+  .emailcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   width: 100%;
+  }
+  .email-input {
+    font-size: 13px;
+    line-height: 20px;
+    width: 100%;
+    height: 35px;
+    border-radius: 3px;
+    max-width: 320px;
+   
+   
   }
 }
