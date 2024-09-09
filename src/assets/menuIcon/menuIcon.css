@@ -1,0 +1,59 @@
+/* From Uiverse.io by Ali-Tahmazi99 */ 
+input[type = "checkbox"] {
+  -webkit-appearance: none;
+  display: none;
+  visibility: hidden;
+}
+
+.bar {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  width: 50px;
+  height: 25px;
+}
+.icon-white{
+    background-color: var(--themeColor);
+}
+.bar span {
+  position: absolute;
+  width: 25px;
+  height: 3px;
+  /* background: #000000; */
+  border-radius: 100px;
+  display: inline-block;
+  transition: 0.3s ease;
+  left: 0;
+}
+
+.bar span.top {
+  top: 0;
+}
+
+.bar span.middle {
+  top: 11px;
+}
+
+.bar span.bottom {
+  bottom: 0;
+}
+
+input[type]:checked ~ span.top {
+  transform: rotate(45deg);
+  transform-origin: top left;
+  width: 30px;
+  left: 2px;
+}
+
+input[type]:checked ~ span.bottom {
+  transform: rotate(-45deg);
+  transform-origin: top left;
+  width: 30px;
+  bottom: 0px;
+ 
+}
+
+input[type]:checked ~ span.middle {
+  transform: translateX(-10px);
+  opacity: 0;
+}

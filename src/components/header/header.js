@@ -10,6 +10,7 @@ import {
   Partnersmenu,
   supportsmenu,
 } from "../../content/content";
+import MenuIcon from "../../assets/menuIcon/menuIcon";
 
 export default function Header({ scrollHeight }) {
   return (
@@ -83,7 +84,7 @@ export default function Header({ scrollHeight }) {
             src={logo}
             alt="logo"
           />
-          <div>jkoj</div>
+          <MenuIcon whiteclr={scrollHeight > 60 ? true : false} />
         </div>
       </PaddedSides>
     </div>
