@@ -9,7 +9,7 @@ export default function Devices() {
         <div  className="heading">
           Phones, TVs and Wearables. All from a single point.
         </div>
-        <div style={{width: '60%', textAlign: 'center', marginTop: '20px'}} className="general_text">
+        <div  className="general_text deviceText">
           The Unified Endpoint Management (UEM) software from Hexnode simplifies
           management of all sorts of Android endpoints, ranging from mobile
           phones to XR devices, and unlocks countless endpoint management

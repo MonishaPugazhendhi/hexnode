@@ -29,7 +29,7 @@ const Tabs = () => {
   };
   const handleAccordionClick = (index) => {
     if (activeAccordion === index) {
-      // setActiveAccordion(null);
+     
       setCloseSide("totop");
       setTimeout(() => setActiveAccordion(null), 300);
     } else {

@@ -17,9 +17,9 @@ function EmailInput() {
         onChange={(e) => setEmail(e.target.value)}
       />
 
-      {/* <div style={{ width: "70%", paddingLeft: "15px" }}> */}
+    
         <RedButton content={"Get Started"} />
-      {/* </div> */}
+     
     </div>
   );
 }

@@ -19,20 +19,20 @@
 
 .tabs-container {
   width: 100%;
-  overflow-x: auto; /* Enable horizontal scrolling */
-  white-space: nowrap; /* Prevent line breaks */
+  overflow-x: auto; 
+  white-space: nowrap; 
   padding-bottom: 10px;
 
   scrollbar-width: none;
-  margin: 0px; /* Hide scrollbar for Firefox */
+  margin: 0px; 
 }
 
 .tabs-container::-webkit-scrollbar {
-  display: none; /* Hide scrollbar for Chrome, Safari, and Edge */
+  display: none;
 }
 
 .tabs {
-  display: inline-flex; /* Allow horizontal scrolling */
+  display: inline-flex;
   position: relative;
   cursor: pointer;
   align-items: center;
@@ -41,7 +41,7 @@
 
 .tab {
   border: 0.5px solid #e5e5e5;
-  display: inline-block; /* Keep tabs in one line */
+  display: inline-block;
   padding: 30px 75px;
   margin: 0 0px;
   font-size: 23px;
@@ -79,7 +79,7 @@
 }
 .tab-content-wrapper {
   width: 100%;
-  /* height: clamp(480px, 480px, 580px); */
+  
   background-color: var(--bgdLight);
 }
 .tab-column1 {
@@ -249,13 +249,13 @@
   transition: max-height 0.2s ease-out, display 0.3s ease-out;
 }
 .accordion-icon {
-  /* margin-top: 20px; */
+ 
   transform: rotate(180deg);
   transition: transform 0.6s ease;
   padding-top: 10px;
 }
 .active {
-  /* transition: transform 0.6s ease; */
+ 
   transform: rotate(0deg);
 }
 

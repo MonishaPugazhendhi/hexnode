@@ -5,13 +5,17 @@
   padding-top: 8%;
   padding-bottom: 8%;
 }
-.dev_img{
-    width: 45%;
-    height: auto;
+.dev_img {
+  width: 45%;
+  height: auto;
 }
-.heading{
+.heading {
   margin-top: 35px;
- 
+}
+.deviceText {
+  width: 60%;
+  text-align: center;
+  margin-top: 20px;
 }
 @media (max-width: 1200px) {
   .dev_img {
@@ -26,5 +30,10 @@
 @media (max-width: 950px) {
   .dev_img {
     width: 70%;
+  }
+  .deviceText{
+    width: 80%;
+  text-align: center;
+  margin-top: 10px;
   }
 }
