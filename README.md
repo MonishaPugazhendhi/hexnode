@@ -25,9 +25,9 @@ ARIA Roles and Accessibility: To enhance the page's usability for all users.
 git clone https://github.com/MonishaPugazhendhi/hexnode.git
 
 ## 2. Dependencies & installation
-install Node.js (version 14.x or higher)
-install npm (comes with Node.js) or yarn
-run command `npm install`
+1. install Node.js (version 14.x or higher)
+2. install npm (comes with Node.js) or yarn
+3. run command `npm install`
 
 ## 3. To start the development server
 open terminal and enter command`npm start`
@@ -53,17 +53,18 @@ The page includes ARIA roles and follows best practices for keyboard navigation.
 ## Challenges and Approach
 
 ## Layout and Responsiveness
-The primary challenge was ensuring that the layout adapts seamlessly across different screen sizes. To tackle this:
-Flexbox and Grid were used for structuring layouts.
-Media queries were used to handle different breakpoints.
+1. The primary challenge was ensuring that the layout adapts seamlessly across different screen sizes. To tackle this:
+2. Flexbox and Grid were used for structuring layouts.
+3. Media queries were used to handle different breakpoints.
 Interactivity
-For dropdowns, sliders, and other interactive elements, I avoided third-party plugins and implemented custom React components.
+4. For dropdowns, sliders, and other interactive elements, I avoided third-party plugins and implemented custom React components.
 
 ## Performance Optimization
-Images were optimized for faster loading.
-The page was designed to be lightweight by minimizing JavaScript and CSS usage.
-Bonus Enhancements
-Hover Effects: Added subtle animations to buttons and links for a more engaging user experience.
+1. Images were optimized for faster loading.
+2. The page was designed to be lightweight by minimizing JavaScript and CSS usage.
+
+## Bonus Enhancements
+1. Hover Effects: Added subtle animations to buttons and links for a more engaging user experience.
 
 
 # Live Demo 
