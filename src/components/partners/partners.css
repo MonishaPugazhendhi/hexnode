@@ -29,7 +29,6 @@
   display: flex;
   flex-direction: column;
   padding-right: 40px;
-  
 }
 .row1,
 .row2,
@@ -65,9 +64,26 @@
   margin: 10px 10px;
 }
 @media (max-width: 1000px) {
+  .image {
+    margin: 5px 5px;
+    width: 80%;
+    
+  }
+  .samsung, .kyocera, .ad, .android{
+    width: 30%;
+    height: auto;
+  }
+
+   
+  .partners {
+    padding-right: 0px;
+  }
   .partnerContainer {
     flex-direction: column-reverse;
     align-items: center;
+  }
+  .row2 {
+    gap: 5px;
   }
   .content {
     align-items: center;
@@ -76,71 +92,68 @@
   }
 }
 @media (min-width: 1028px) {
-   
- .samsung{
+  .samsung {
     transform: translateX(20px) translateY(30px);
     transition: transform 0.3s ease-in-out;
- }
- .kyocera{
+  }
+  .kyocera {
     transform: translateX(-20px) translateY(10px);
     transition: transform 0.3s ease-in-out;
- }
- .lg{
+  }
+  .lg {
     transform: translateX(100px) translateY(30px);
     transition: transform 0.3s ease-in-out;
     z-index: 1;
- }
- .zendesk{
+  }
+  .zendesk {
     transform: translateX(-30px) translateY(0px);
     transition: transform 0.3s ease-in-out;
- }
- .google{
+  }
+  .google {
     transform: translateX(10px) translateY(-5px);
     transition: transform 0.3s ease-in-out;
- }
-.microsoft{
+  }
+  .microsoft {
     transform: translateX(-70px) translateY(20px);
     transition: transform 0.3s ease-in-out;
-}
-.ad{
+  }
+  .ad {
     transform: translateX(-20px) translateY(-10px);
     transition: transform 0.3s ease-in-out;
-}
-.android{
+  }
+  .android {
     transform: translateX(20px) translateY(20px);
     transition: transform 0.3s ease-in-out;
-}
-.hexnode{
+  }
+  .hexnode {
     visibility: hidden;
-   
-}
+  }
 
-
- .partners:hover .samsung{
+  .partners:hover .samsung {
     transform: translateX(0px) translateY(0px);
- }
- .partners:hover .lg{
+  }
+  .partners:hover .lg {
     transform: translateX(0px) translateY(0px);
- }
- .partners:hover .kyocera{
+  }
+  .partners:hover .kyocera {
     transform: translateX(0px) translateY(0px);
- }
- .partners:hover .zendesk{
+  }
+  .partners:hover .zendesk {
     transform: translateX(0px) translateY(0px);
- }
- .partners:hover .google{
+  }
+  .partners:hover .google {
     transform: translateX(0px) translateY(0px);
- }
- .partners:hover .microsoft{
+  }
+  .partners:hover .microsoft {
     transform: translateX(0px) translateY(0px);
- }
- .partners:hover .ad{
+  }
+  .partners:hover .ad {
     transform: translateX(0px) translateY(0px);
- }
- .partners:hover .android{
+  }
+  .partners:hover .android {
     transform: translateX(0px) translateY(0px);
- }
- .partners:hover .hexnode{
+  }
+  .partners:hover .hexnode {
     visibility: visible;
- }
+  }
 }

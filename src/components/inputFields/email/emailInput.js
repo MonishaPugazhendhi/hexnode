@@ -6,22 +6,20 @@ function EmailInput() {
   const [email, setEmail] = useState("");
 
   return (
-    <div className="container" >
-      <div className="emailContainer">
-        <input
-          placeholder="Your Work Email"
-          type="text"
-          name="email"
-          id="signup-email"
-          className="email-input"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-      </div>
+    <div className="emailcontainer">
+      <input
+        placeholder="Your Work Email"
+        type="text"
+        name="email"
+        id="signup-email"
+        className="email-input"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+      />
 
-      <div style={{ width: "70%", paddingLeft: "15px" }}>
+      {/* <div style={{ width: "70%", paddingLeft: "15px" }}> */}
         <RedButton content={"Get Started"} />
-      </div>
+      {/* </div> */}
     </div>
   );
 }

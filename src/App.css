@@ -1,7 +1,7 @@
 :root {
   --white: #fff;
   --themeColor: #101420;
-  --themeColor-light:#1c202b;
+  --themeColor-light: #1c202b;
   --blackText: #020a19;
   --generalText: #333333;
   --bgdLight: #f7f7f7;
@@ -10,15 +10,14 @@
 body {
   font-family: "Mulish", sans-serif;
   box-sizing: border-box;
-  height: 100vh;
- 
+  /* height: 100vh; */
+width: 100vw;
   /* overflow-x: hidden; */
 }
 .mainContainer {
-  height: 100vh;
- 
-  position: relative;
-
+  /* height: 100vh; */
+overflow-x: hidden;
+  /* position: relative; */
 }
 .headerBox {
   position: "relative" !important;
@@ -42,21 +41,32 @@ body {
   flex-direction: column;
   justify-content: center;
 }
-.heading{
+.heading {
   font-size: 40px;
   line-height: 38px;
-  color:var(--blackText);
+  color: var(--blackText);
   font-weight: 800;
   text-align: center;
- 
 }
-.general_text{
+.general_text {
   font-size: 18px;
   line-height: 28px;
-  color:var(--generalText)
+  color: var(--generalText);
 }
 @media (max-width: 900px) {
-  .heading{
+  .heading {
     font-size: 32px;
   }
+}
+.d-flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.w-100 {
+  width: 100%;
+}
+.justify-center {
+  justify-content: center;
 }

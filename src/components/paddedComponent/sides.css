@@ -1,19 +1,24 @@
 .paddedSides {
-  padding-left: 100px;
+  /* padding-left: 100px;
   padding-right: 100px;
-  overflow: hidden;
+  overflow: hidden; */
+  max-width: 1300px;
+  margin: 0px  auto;
+  width: 88%;
  
 }
 @media (max-width: 1024px) {
   .paddedSides {
-    padding-left: 50px;
-    padding-right: 50px;
+    max-width: 1024px;
+    margin: 0px  auto;
+    width: 88%;
   }
 }
 @media (max-width: 900px) {
   .paddedSides {
-    padding-left: 0px;
-    padding-right: 0px;
+    max-width: 900px;
+   margin: 0px  auto;
+  width: 88%;
   }
 }
 
