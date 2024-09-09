@@ -50,7 +50,7 @@ The page is responsive across all device sizes, using media queries and CSS Flex
 ### Accessibility: 
 The page includes ARIA roles and follows best practices for keyboard navigation.
 
-## Challenges and Approach
+# Challenges and Approach
 
 ## Layout and Responsiveness
 1. The primary challenge was ensuring that the layout adapts seamlessly across different screen sizes. To tackle this:
