@@ -1,5 +1,5 @@
 import EmailInput from "../inputFields/email/emailInput";
-import PaddedSides from "../paddedComponent/paddedSides";
+
 
 export default function EmailBanner({ title }) {
   return (
